@@ -17,6 +17,7 @@ const TodoForm = () => {
     e.preventDefault();
     console.log("adding items")
     await firebase.handleCreateTodo(todoText);
+    window.location.reload();
     alert("successfully Added the task")
     setTodoText("")
   }
