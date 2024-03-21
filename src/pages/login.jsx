@@ -48,7 +48,7 @@ const LoginPage = () => {
           <Form onSubmit={handleSubmit}>
             {/* Email Field */}
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="email">Your Email Address</Form.Label>
+              <Form.Label htmlFor="email"> Enter Your Registered  Email</Form.Label>
               <Form.Control
                 onChange={ e => setEmail(e.target.value)}
                 value={email}
@@ -61,7 +61,7 @@ const LoginPage = () => {
 
             {/* Password Field */}
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="password">Create a Strong Password</Form.Label>
+              <Form.Label htmlFor="password">Enter Your Password</Form.Label>
               <Form.Control
               onChange={ e => setPassword(e.target.value)}
               value={password}
